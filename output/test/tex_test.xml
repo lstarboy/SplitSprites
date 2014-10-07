@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+﻿<KLBTextureEditor_Plugin id="97987213-f110-7adb-a6bf-0d3a2b0ef90e">
+  <ProjectPropertyModel>
+    <Version>0.1.0</Version>
+    <ProjectFile>tex_test.xml</ProjectFile>
+    <ProjectFileRelativeDir />
+    <SaveDate>2014-09-27T21:44:37</SaveDate>
+    <EditState>true</EditState>
+    <ContainerScale>1</ContainerScale>
+    <ContainerSnap>8</ContainerSnap>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleBoundaryLine>true</VisibleBoundaryLine>
+    <VisibleImage>true</VisibleImage>
+    <VisibleMask>false</VisibleMask>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleProperty>true</VisibleProperty>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleCenterPoint>false</VisibleCenterPoint>
+    <Comment />
+  </ProjectPropertyModel>
+  <ContainerPropertyModel>
+    <Width>512</Width>
+    <Height>256</Height>
+    <PixelFormat>RGBA8888</PixelFormat>
+    <usePremultiply>false</usePremultiply>
+  </ContainerPropertyModel>
+  <ArrayOfTextureModel>
+    <TextureModel>
+      <Pos>
+        <X>403</X>
+        <Y>1</Y>
+      </Pos>
+      <Id>0</Id>
+      <Name>Gift.png</Name>
+      <IsFlipX>false</IsFlipX>
+      <IsFlipY>false</IsFlipY>
+      <IsSwitchXY>false</IsSwitchXY>
+      <ImgPathName>test/Gift.png</ImgPathName>
+      <ZOrder>0</ZOrder>
+    </TextureModel>
+    <TextureModel>
+      <Pos>
+        <X>1</X>
+        <Y>1</Y>
+      </Pos>
+      <Id>0</Id>
+      <Name>result.png</Name>
+      <IsFlipX>false</IsFlipX>
+      <IsFlipY>false</IsFlipY>
+      <IsSwitchXY>false</IsSwitchXY>
+      <ImgPathName>test/result.png</ImgPathName>
+      <ZOrder>0</ZOrder>
+    </TextureModel>
+  </ArrayOfTextureModel>
+  <ArrayOfT3DModel />
+</KLBTextureEditor_Plugin>

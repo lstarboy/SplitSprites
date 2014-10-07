@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KLBTextureEditor_Plugin id="{{.UUID}}">
+  <ProjectPropertyModel>
+    <Version>0.1.0</Version>
+    <ProjectFile>tex_{{.Name}}.xml</ProjectFile>
+    <ProjectFileRelativeDir />
+    <SaveDate>{{.STime}}</SaveDate>
+    <EditState>true</EditState>
+    <ContainerScale>1</ContainerScale>
+    <ContainerSnap>8</ContainerSnap>
+    <VisibleGrid>true</VisibleGrid>
+    <VisibleBoundaryLine>true</VisibleBoundaryLine>
+    <VisibleImage>true</VisibleImage>
+    <VisibleMask>false</VisibleMask>
+    <VisiblePolygon>false</VisiblePolygon>
+    <VisibleProperty>true</VisibleProperty>
+    <VisibleBoundBox>false</VisibleBoundBox>
+    <VisibleCenterPoint>false</VisibleCenterPoint>
+    <Comment />
+  </ProjectPropertyModel>
+  <ContainerPropertyModel>
+    <Width>{{.Width}}</Width>
+    <Height>{{.Height}}</Height>
+    <PixelFormat>RGBA8888</PixelFormat>
+    <usePremultiply>false</usePremultiply>
+  </ContainerPropertyModel>
+  <ArrayOfTextureModel>{{with .Texels}}{{range .}}
+    <TextureModel>
+      <Pos>
+        <X>{{.X}}</X>
+        <Y>{{.Y}}</Y>
+      </Pos>
+      <Id>0</Id>
+      <Name>{{.ShortName}}</Name>
+      <IsFlipX>false</IsFlipX>
+      <IsFlipY>false</IsFlipY>
+      <IsSwitchXY>false</IsSwitchXY>
+      <ImgPathName>{{.LongName}}</ImgPathName>
+      <ZOrder>0</ZOrder>
+    </TextureModel>{{end}}{{end}}
+  </ArrayOfTextureModel>
+  <ArrayOfT3DModel />
+</KLBTextureEditor_Plugin>
